@@ -98,6 +98,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 100%;
     background-color: var(--background);
 }
 
@@ -120,6 +122,7 @@ body {
 .right {
     background-color: var(--background);
     width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,4 +243,183 @@ body {
 .linkedin-link > a > img {
     width: 40px;
     height: 40px;
+}
+
+/* Resposividade */
+
+@media (max-width: 1190px) {
+    .main {
+        padding-left: 20px;
+    }
+
+    .texto-eu > p {
+        font-size: 17px;
+    }
+    .left > h1 {
+        font-size: 60px;
+    }
+
+    .right > img {
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+    }
+
+    @keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+}
+
+@media (max-width: 855px) {
+    .lista-nav > li > a {
+        font-size: 25px;
+    }
+
+    .texto-eu > p {
+        font-size: 14px;
+    }
+
+    .left > h1 {
+        font-size: 45px;
+    }
+
+    .right > img {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 787px) {
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 20px;
+    }
+
+    .texto-eu > p {
+        font-size: 16px;
+    }
+
+    .left {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+
+    .left > h1 {
+        font-size: 60px;
+    }
+
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+
+    .right > img {
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+        animation: up 3s infinite linear;
+    }
+
+    @keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+
+    .github-text > p, .linkedin-text > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 645px) {
+    .lista-nav > li > a {
+        font-size: 20px;
+    }
+
+    .texto-eu > p {
+        font-size: 14px;
+    }
+
+    .left > h1 {
+        font-size: 45px;
+    }
+
+    .right {
+        align-items: flex-end;
+    }
+
+    .right > img {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .github-text > p, .linkedin-text > p {
+        font-size: 16px;
+    }
+
+    .github-link > a > img, .linkedin-link > a > img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 562px) {
+    .trocador-linguagem {
+        height: 35px;
+        width: 70px;
+    }
+
+    .trocador-linguagem > button {
+        font-size: 8px;
+    }
+
+    .github-text > p, .linkedin-text > p {
+        font-size: 12px;
+    }
+
+    .github-link > a > img, .linkedin-link > a > img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-text > p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 466px) {
+    .texto-eu > p {
+        font-size: 12px;
+    }
+
+    .github-link > a > img, .linkedin-link > a > img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .github-text > p, .linkedin-text > p {
+        font-size: 10px;
+    }
+
+    .footer-text > p {
+        font-size: 10px;
+    }
 }

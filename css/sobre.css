@@ -209,3 +209,185 @@ body {
     text-decoration: none;
     font-weight: bold
 }
+
+/* Responsividade */
+
+@media (max-width: 1450px) {
+    .lista-nav > li > a {
+        font-size: 30px;
+    }
+
+    .main {
+        width: 90%;
+        max-width: none;
+    }
+
+    .sobre-mim-text > h1 {
+        font-size: 40px;
+    }
+
+    .sobre-mim-text > h2 {
+        font-size: 25px;
+    }
+
+    .sobre-mim-text > p {
+        font-size: 16px;
+    }
+
+    .sobre-text > h2 {
+        font-size: 30px;
+    }
+
+    .sobre-text > p {
+        font-size: 14px;
+    }
+
+    .tecnologias > h2 {
+        font-size: 30px;
+    }
+    
+    .imagens > img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 860px) {
+    .lista-nav > li > a {
+        font-size: 25px;
+    }
+
+    .sobre-mim-text > h1 {
+        font-size: 30px;
+    }
+
+    .sobre-mim > img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .sobre-mim-text > h2 {
+        font-size: 17px;
+    }
+
+    .sobre-mim-text > p {
+        font-size: 14px;
+    }
+
+    .sobre-text > h2 {
+        font-size: 20px;
+    }
+
+    .sobre-text > p {
+        font-size: 12px;
+    }
+
+    .tecnologias > h2 {
+        font-size: 20px;
+    }
+
+    .imagens > img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 673px) {
+    .trocador-linguagem{
+        width: 70px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .lista-nav > li > a {
+        font-size: 17px;
+    }
+
+    .sobre-mim-text > h1 {
+        font-size: 25px;
+    }
+
+    .sobre-mim > img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .sobre-mim-text > h2 {
+        font-size: 15px;
+    }
+
+    .sobre-mim-text > p {
+        font-size: 14px;
+    }
+
+    .sobre-text > h2 {
+        font-size: 18px;
+    }
+
+    .sobre-text > p {
+        font-size: 12px;
+    }
+
+    .tecnologias > h2 {
+        font-size: 18px;
+    }
+
+    .imagens > img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sobre-mim-text > h1 {
+        font-size: 20px;
+    }
+
+    .sobre-mim > img {
+        width: 100px;
+        height: 120px;
+    }
+
+    .sobre-mim-text > h2 {
+        font-size: 12px;
+    }
+
+    .sobre-mim-text > p {
+        font-size: 12px;
+    }
+
+    .sobre-text > h2 {
+        font-size: 16px;
+    }
+
+    .sobre-text > p {
+        font-size: 10px;
+    }
+
+    .tecnologias > h2 {
+        font-size: 16px;
+    }
+
+    .imagens > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-text > p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 460px) {
+    .sobre-mim-text > h1 {
+        font-size: 18px;
+    }
+
+    .sobre-mim-text > h2 {
+        font-size: 10px;
+    }
+
+    .sobre-mim-text > p {
+        font-size: 10px;
+    }
+}
