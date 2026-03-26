@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --header-footer: #000000;
+    --background: #061E29;
+    --font: aliceblue;
+    --destaque: #38bdf8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    background-color: var(--header-footer);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.lista-nav > li > a {
+    text-decoration: none;
+    color: var(--font);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.8s linear;
+}
+
+.lista-nav > li > a:hover {
+    color: var(--destaque);
+    border-bottom: 1px solid var(--destaque);
+}
+
+.trocador-linguagem {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    gap: 4px;
+}
+
+.trocador-linguagem > button {
+    background-color: #000000;
+    border: 1px solid var(--destaque);
+    width: 50%;
+    color: var(--font);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.trocador-linguagem > button:hover {
+    background-color: #383838;
+}
+
+.main {
+    height: calc(100% - 100px - 85px);
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.left > h1 {
+    font-size: 85px;
+    width: 100%;
+    max-width: 700px;
+    color: var(--font);
+    text-shadow: 0 6px 10px var(--destaque);
+    margin-bottom: 10px;
+}
+
+.texto-eu {
+    width: 100%;
+    max-width: 700px;
+    font-size: 20px;
+    color: #d4d4d4;
+}
+
+.right {
+    background-color: var(--background);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right > img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 550px;
+    height: 550px;
+    border: 2px solid var(--destaque);
+    box-shadow: 5px 10px 20px var(--destaque);
+    animation: up 5s infinite linear;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-55px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: var(--header-footer);
+    display: flex;
+}
+
+.footer-section {
+    flex: 1;
+    width: 50%;
+    padding: 10px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #383838;
+}
+
+.footer-text > p {
+    color: var(--font);
+    font-weight: 200;
+}
+
+.footer-text > p > a {
+    color: var(--destaque);
+    text-decoration: none;
+    font-weight: bold
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-link {
+    display: flex;
+    border: 1px solid var(--destaque);
+    margin-right: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.github-link:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.github-text {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+}
+
+.github-text > p {
+    color: var(--font);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.github-link > a > img {
+    width: 40px;
+    height: 40px;
+}
+
+.linkedin-link {
+    display: flex;
+    border: 1px solid var(--destaque);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.linkedin-link:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.linkedin-text {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+}
+
+.linkedin-text > p {
+    color: var(--font);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.linkedin-link > a > img {
+    width: 40px;
+    height: 40px;
+}
