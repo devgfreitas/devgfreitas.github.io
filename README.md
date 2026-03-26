@@ -1,7 +1,7 @@
 # 🌐 Portfólio - Giovany Freitas
 ## 🚀 Sobre o projeto:
 Este é o meu portfólio pessoal desenvolvido com HTML e CSS, com o objetivo de apresentar meus projetos, habilidades e evolução como desenvolvedor.
-O site foi criado como parte dos meus estudos e também para servir como vitrine profissional.
+O site foi criado como parte dos meus estudos e também para servir como vitrine profissional, nele vou fazer mudanças com html, css, responsividade e futuramente JavaScript para troca de idiomas e do tema do site.
 ## 🚀 Acesse o projeto:
 🔗 https://devgfreitas.github.io
 ## 🛠️ Tecnologias utilizadas:
