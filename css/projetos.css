@@ -162,3 +162,89 @@ body {
     text-decoration: none;
     font-weight: bold
 }
+
+/* Responsividade */
+
+@media (max-width: 1450px) {
+    .main {
+        width: 85%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 1075px) {
+    .lista-nav > li > a {
+        font-size: 35px;
+    }
+
+    .main > h1 {
+        font-size: 55px;
+    }
+
+    .card > img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .lista-nav > li > a {
+        font-size: 30px;
+    }
+
+    .main > h1 {
+        font-size: 40px;
+    }
+
+    .projetos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 718px) {
+    .trocador-linguagem {
+        width: 70px;
+        height: 35px;
+    }
+
+    .trocador-linguagem > button {
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .trocador-linguagem > button {
+        font-size: 10px;
+    }
+
+    .lista-nav > li > a {
+        font-size: 25px;
+    }
+
+    .projetos {
+        grid-template-columns: 1fr;
+    }
+
+    .card > img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 455px) {
+    .lista-nav > li > a {
+        font-size: 22px;
+    }
+
+    .main > h1 {
+        font-size: 30px;
+    }
+
+    .card > p {
+        font-size: 15px;
+    }
+
+    .footer-text > p {
+        font-size: 16px;
+    }
+}

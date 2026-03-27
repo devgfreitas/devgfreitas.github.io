@@ -382,13 +382,17 @@ body {
 }
 
 @media (max-width: 562px) {
+    .main {
+        height: calc(100dvh - 185px);
+    }
+
     .trocador-linguagem {
         height: 35px;
         width: 70px;
     }
 
     .trocador-linguagem > button {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .github-text > p, .linkedin-text > p {
@@ -406,17 +410,25 @@ body {
 }
 
 @media (max-width: 466px) {
+    .lista-nav > li > a {
+        font-size: 22px;
+    }
+
+    .main {
+        height: calc(100dvh - 185px);
+    }
+
     .texto-eu > p {
         font-size: 12px;
     }
 
     .github-link > a > img, .linkedin-link > a > img {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
 
     .github-text > p, .linkedin-text > p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .footer-text > p {

@@ -188,3 +188,95 @@ body {
     text-decoration: none;
     font-weight: bold
 }
+
+/* Responsividade */
+
+@media (max-width: 1000px) {
+    .lista-nav > li > a {
+        font-size: 30px;
+    }
+
+    .main {
+        width: 85%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .trocador-linguagem {
+        width: 70px;
+        height: 35px;
+    }
+
+    .trocador-linguagem > button {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 675px) {
+    .lista-nav > li > a {
+        font-size: 25px;
+    }
+
+    .redes {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .redes > a {
+        width: 80%;
+    }  
+
+    .linha-vertical {
+        height: 1px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 592px) {
+    .lista-nav > li > a {
+        font-size: 22px;
+    }
+
+    .contato-box > h1 {
+        font-size: 30px;
+    }
+
+    .contato-text > p {
+        font-size: 16px;
+    }
+
+    .redes {
+        gap: 10px;
+        margin: 0;
+    }
+
+    .redes > a {
+        margin: 10px 0;
+        font-size: 45px;
+    }
+
+    .redes > a > img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 428px) {
+    .lista-nav > li > a {
+        font-size: 22px;
+    }
+
+    .redes > a {
+        font-size: 30px;
+    }
+
+    .redes > a > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-text > p {
+        font-size: 16px;
+    }
+}
