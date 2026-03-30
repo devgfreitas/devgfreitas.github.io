@@ -435,3 +435,27 @@ body {
         font-size: 10px;
     }
 }
+
+@media (max-height: 825px) {
+    .right > img {
+        width: 100%;
+        max-width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-height: 723px) {
+    .right > img {
+        width: 100%;
+        max-width: 220px;
+        height: 220px;
+    }   
+}
+
+@media (max-height: 659px) {
+    .right > img {
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+    }
+}
