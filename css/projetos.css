@@ -201,6 +201,11 @@ body {
 }
 
 @media (max-width: 718px) {
+    .header {
+        position: absolute;
+        top: 0;
+    }
+
     .trocador-linguagem {
         width: 70px;
         height: 35px;
